@@ -7,7 +7,7 @@ es6 promise polyfill for wechat miniapp(promise-polyfill针对小程序兼容的
 1、Installation
 
 ```
-npm install -D babel-plugin-miniapp-promise
+npm install -D babel-plugin-miniapp-promise promise-polyfill
 ```
 
 2、Set babel plugin config

@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-miniapp-promise",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "es6 promise polyfill for wechat miniapp",
   "main": "./lib/index.js",
   "scripts": {
@@ -16,13 +16,15 @@
     "promise",
     "polyfill"
   ],
+  "peerDependencies": {
+    "promise-polyfill": "^8.1.3"
+  },
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
     "babel-preset-env": "^1.7.0",
     "babel-template": "^6.26.0",
     "babel-types": "^6.26.0",
-    "promise-polyfill": "^8.1.3"
   },
   "author": "veekingsen@163.com",
   "license": "ISC"
