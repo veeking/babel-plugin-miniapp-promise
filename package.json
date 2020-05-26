@@ -1,11 +1,10 @@
 {
   "name": "babel-plugin-miniapp-promise",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "es6 promise polyfill for wechat miniapp",
   "main": "./lib/index.js",
   "scripts": {
-    "build": "babel src -d lib",
-    "publish": "npm run build && npm run publish"
+    "build": "babel src -d lib"
   },
   "repository": {
     "type": "git",
